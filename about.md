@@ -11,7 +11,7 @@ permalink: /about/
 
 <strong>Stuff I play:</strong> Electric and Acoustic Guitar (6, 7 and 12 string), 8 String Electric Guitar, 6 String Bass, Piano, Lap Steel Resonator, Tenor Banjo, Ukulele, Kalimba, Zendrum, Tongue Drum (hand), Djembe (not necessarily in that order)
 
-<strong>Stuff I make:</strong> Kalimbas, stuff with cigar boxes, Legos
+<strong>Stuff I make:</strong> Kalimbas, stuff with cigar boxes, Legos.
 
 <strong>Stuff I eat:</strong> Sushi, chili dogs, wheat berries, kimchi, and anything I can put in my Vitamix.
 
