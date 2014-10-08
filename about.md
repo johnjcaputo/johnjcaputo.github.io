@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![Cat Nap](/images/sleep.jpg)
 
-<strong>Aloha.</strong>  I'm a musician, photographer, and educaitonal technologist from the Philadelphia area. If that doesn't cover enough ground, I also pretend that I know what I'm doing being a parent and husband.
+<strong>Aloha.</strong>  I'm John; a musician, photographer, and educaitonal technologist from the Philadelphia area. If that doesn't cover enough ground, I also pretend that I know what I'm doing being a parent and husband.
 
 <em>live.love.ukulele</em> is about everything I do. Relax, release the illusion of control, and enjoy the wave.
 
@@ -15,4 +15,4 @@ permalink: /about/
 
 <strong>Stuff I eat:</strong> Sushi, chili dogs, wheat berries, kimchi, and anything I can put in my Vitamix.
 
-<strong>Places I like to go:</strong> Hawaii, Disney World, and anywhere the water moves or is frozen.
+<strong>Places I go:</strong> Hawaii, Disney World, and anywhere the water moves or is frozen.
