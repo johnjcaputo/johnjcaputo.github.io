@@ -2,7 +2,7 @@
 title: live.love.ukulele
 email: johnjcaputo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Musician, photographer, and educational technologigies operating around Phildelphia.
+  Musician, photographer, and educational technologist operating around Phildelphia.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.johnjcaputo" # the base hostname & protocol for your site
 twitter_username: johnjcaputo
