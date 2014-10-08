@@ -10,3 +10,6 @@ github_username:  johnjcaputo
 
 # Build settings
 markdown: kramdown
+
+# Outputting
+permalink: pretty

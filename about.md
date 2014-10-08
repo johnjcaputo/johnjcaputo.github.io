@@ -1,11 +1,18 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
+![Cat Nap](/images/sleep.jpg)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<strong>Aloha.</strong>  I'm a musician, photographer, and educaitonal technologist from the Philadelphia area. If that doesn't cover enough ground, I also pretend that I know what I'm doing being a parent and husband.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+<em>live.love.ukulele</em> is about everything I do. Relax, release the illusion of control, and enjoy the wave.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<strong>Stuff I play:</strong> Electric and Acoustic Guitar (6, 7 and 12 string), 8 String Electric Guitar, 6 String Bass, Piano, Lap Steel Resonator, Tenor Banjo, Ukulele, Kalimba, Zendrum, Tongue Drum (hand), Djembe (not necessarily in that order)
+
+<strong>Stuff I make:</strong> Kalimbas, stuff with cigar boxes, Legos
+
+<strong>Stuff I eat:</strong> Sushi, chili dogs, wheat berries, kimchi, and anything I can put in my Vitamix.
+
+<strong>Places I like to go:</strong> Hawaii, Disney World, and anywhere the water moves or is frozen.

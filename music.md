@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Music
+title: music
 permalink: /music/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+So what do I do? Acoustic and electric music with a touch of world influence. My live show is a mix of guitar, ukulele, kalimba, and just about anything else I can find. I also use Ableton Live for an additional element here and there. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+<iframe frameborder="no" height="300" scrolling="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2178538&amp;auto_play=false&amp;show_artwork=false&amp;color=ff7700" width="100%"></iframe>
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+In addition to making music, I also make musical instruments. I got into kalimbas a few years ago, and started refining what I'd like in an instrument. My third iteration uses stainless steel tines and a heavy brass vice. It sounds dark. Amplification is courtesy of a simple external pickup assembly. I process it live with a Moog ring modulator to add in a little extra metallic resonance.
 
-I wonder what an embed looks like in this.
+ ![Kalimbas](/images/kalimbas.jpg)
