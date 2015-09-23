@@ -356,6 +356,11 @@ iframe{
 	background-color:#47454B;
 }
 
+/* Bloc image backgrounds */
+
+.bg-forrest{
+	background-image:url('img/forrest.jpg');
+}
 
 
 
