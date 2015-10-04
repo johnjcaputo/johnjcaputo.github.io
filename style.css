@@ -68,6 +68,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-tl-edge{
+	background: top left no-repeat;
+}
+.bg-bl-edge{
+	background: bottom left no-repeat;
+}
+
+
 /* Background Effects */
 
 .b-parallax{
@@ -162,9 +178,18 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
 
 /* Bloc text custom styling */
 
+#bloc-1 h1{
+	font-family: Arvo;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -376,10 +401,7 @@ iframe{
 
 .tc-outer-space{
 	color:#47454B!important;
-	!important}.tc-white{
-	color:#ffffff!important;
-}
-/* Button colour styles */
+	!important}/* Button colour styles */
 
 .wire-btn-outer-space{
 	color:#47454B!important;
@@ -388,17 +410,23 @@ iframe{
 
 /* Bloc image backgrounds */
 
-.bg-hawaii{
-	background-image:url("img/hawaii.JPG");
-}
-.bg-caputo-poster{
+}.bg-caputo-poster{
 	background-image:url("img/caputo%20poster.psd");
-}
-.bg-bench{
-	background-image:url("img/bench.JPG");
 }
 .bg-landscape{
 	background-image:url("img/landscape.JPG");
+}
+.bg-landscape{
+	background-image:url('img/landscape.JPG');
+}
+.bg-landscape{
+	background-image:url('img/landscape.jpg');
+}
+.bg-bench{
+	background-image:url('img/bench.JPG');
+}
+.bg-hawaii{
+	background-image:url('img/hawaii.JPG');
 }
 
 
