@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    jjcNewSite
+/*	    2015site
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
 
@@ -19,21 +19,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
    
 
 
-
-
 /* Globals type styling */
-   
  h1, h2, h3, h4, h5, h6, p, label, .btn, a{
-	font-family:"Helvetica";
+	font-family:Open Sans;
+	font-weight:400;
 }
 
 
 /* Site container width */
 
 .container{
-	width:100%;
-	padding-left:15px;
-	padding-right:15px;
+	max-width:970px;
 }
 
 /* = Blocs
@@ -58,8 +54,24 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
+.bloc-xxl{
+	padding:200px 50px;
+}
+.bloc-lg{
+	padding:100px 50px;
+}
+.bloc-md{
+	padding:50px;
+}
 .bloc-sm{
 	padding:20px 50px;
+}
+
+
+/* Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
 }
 
 
@@ -153,12 +165,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#hero-bloc h1{
-	font-size:50px;
-}
-#hero-bloc h3{
-	font-size:30px;
-}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -256,56 +262,17 @@ nav .caret{
 	margin: 0 5px;
 }
 
-/* = Hero
--------------------------------------------------------------- */
-
-.hero{
-	padding-top:0;
-}
-.hero-nav{
-	position:absolute;
-	margin: 0 auto;
-	top:0;
-	left:0;
-	right:0;
-}
-.v-center{
-	position: relative;
-	height: inherit;
-}
-.v-center .vc-content{
-	position:relative;
-	top:50%;
-	transform:translateY(-50%);
-	-webkit-transform:translateY(-50%);
-}
-.hero .btn-dwn{
-	width: 58px;
-	height: 58px;
-	line-height: 58px;
-	margin: 0 0 0 -29px;
-	padding: 0;
-	border-radius: 50%;
-	text-align: center;
-	font-size: 18px;
-	color: rgba(255,255,255,.8);
-	background: rgba(0,0,0,.6);
-	position: absolute;
-	left: 50%;
-	bottom: 60px;
-	border:0;
-}
-.hero .btn-dwn:hover{
-	color: rgba(255,255,255,1);
-}
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
-}
-
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
 .mg-lg{
 	margin-top:10px;
 	margin-bottom:40px;
@@ -330,6 +297,17 @@ button{
 	outline: none!important;
 }
 
+.btn-wire{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-wire:hover{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.icon-spacer{
+	margin-right:5px;
+}
 .dropdown a .caret{
 	margin:0 0 0 5px}
 /* = Icons
@@ -356,23 +334,31 @@ button{
 
 
 
-/* Empty space fillers - Used on empty blocs to fill them out */
-
-.empty-column,.empty-column.thin{
-	width:100%;
-	height:350px;
-	display:inline-block;
-}
-.empty-column{
-	height:350px;
-}
-.empty-column.thin{
-	height:150px;
-}
 /* iFrame */
 
 iframe{
 	border:0;
+}
+
+
+/* ScrollToTop button */
+
+.scrollToTop{
+	width:40px;
+	height:40px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	opacity: 0;
+	z-index: 500;
+	transition: all .3s ease-in-out;
+}
+.scrollToTop span{
+	margin-top: 6px;
+}
+.showScrollTop{
+	font-size: 14px;
+	opacity: 1;
 }
 
 /* = Custom Colour Styling
@@ -383,11 +369,39 @@ iframe{
 .bgc-white{
 	background-color:#ffffff;
 }
+.bgc-outer-space{
+	background-color:#47454B;
+}
+/* Text colour styles */
+
+.tc-outer-space{
+	color:#47454B!important;
+	!important}.tc-white{
+	color:#ffffff!important;
+}
+/* Button colour styles */
+
+.wire-btn-outer-space{
+	color:#47454B!important;
+	border-color:#47454B!important;
+}
 
 /* Bloc image backgrounds */
 
-.bg-FullSizeRender{
-	background-image:url('img/FullSizeRender.jpg');
+.bg-landscape{
+	background-image:url("img/landscape.jpg");
+}
+.bg-hawaii{
+	background-image:url("img/hawaii.JPG");
+}
+.bg-caputo-poster{
+	background-image:url("img/caputo%20poster.psd");
+}
+.bg-landscape{
+	background-image:url("img/landscape.JPG");
+}
+.bg-bench{
+	background-image:url("img/bench.JPG");
 }
 
 
