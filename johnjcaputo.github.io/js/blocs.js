@@ -205,6 +205,7 @@ function setUpLightBox()
 	
 	$(document).on('click', '.next-lightbox, .prev-lightbox', function(e) 
 	{
+		e.preventDefault();
 		var idx = $('a[data-lightbox]').index(targetLightbox);
 		var next = $('a[data-lightbox]').eq(idx+1) // Next
 		

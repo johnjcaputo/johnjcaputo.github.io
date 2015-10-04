@@ -297,9 +297,6 @@ button{
 	outline: none!important;
 }
 
-.btn-sq{
-	border-radius: 0px;
-}
 .btn-wire{
 	background:transparent!important;
 	border:2px solid transparent;
@@ -342,25 +339,6 @@ button{
 iframe{
 	border:0;
 }
-/* = Carousel
--------------------------------------------------------------- */
-
-.carousel-control span{
-	position: absolute;
-	top: 50%;
-	z-index: 5;
-	display: inline-block;
-}
-.carousel-control{
-	color:#FFF!important;
-	text-shadow: none;
-}
-.carousel-indicators li{
-	margin: 0 4px;
-}
-.carousel-indicators .active{
-	margin: 0 4px -1px;
-}
 
 
 /* ScrollToTop button */
@@ -394,20 +372,36 @@ iframe{
 .bgc-outer-space{
 	background-color:#47454B;
 }
+/* Text colour styles */
+
+.tc-outer-space{
+	color:#47454B!important;
+	!important}.tc-white{
+	color:#ffffff!important;
+}
 /* Button colour styles */
 
-.wire-btn-gray-x11-gray{
-	color:#BCBBBD!important;
-	border-color:#BCBBBD!important;
+.wire-btn-outer-space{
+	color:#47454B!important;
+	border-color:#47454B!important;
 }
 
 /* Bloc image backgrounds */
 
+.bg-landscape{
+	background-image:url("img/landscape.jpg");
+}
+.bg-hawaii{
+	background-image:url("img/hawaii.JPG");
+}
 .bg-caputo-poster{
 	background-image:url("img/caputo%20poster.psd");
 }
-.bg-forrest{
-	background-image:url("img/forrest.jpg");
+.bg-landscape{
+	background-image:url("img/landscape.JPG");
+}
+.bg-bench{
+	background-image:url("img/bench.JPG");
 }
 
 
