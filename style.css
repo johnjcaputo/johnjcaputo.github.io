@@ -413,17 +413,17 @@ iframe{
 }.bg-caputo-poster{
 	background-image:url("img/caputo%20poster.psd");
 }
-.bg-landscape{
-	background-image:url('img/landscape.JPG');
-}
-.bg-landscape{
-	background-image:url('img/landscape.jpg');
-}
 .bg-bench{
 	background-image:url('img/bench.JPG');
 }
 .bg-hawaii{
 	background-image:url('img/hawaii.JPG');
+}
+.bg-landscape{
+	background-image:url('img/landscape.JPG');
+}
+.bg-plate{
+	background-image:url('img/plate.JPG');
 }
 
 
