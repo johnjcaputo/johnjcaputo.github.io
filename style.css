@@ -388,20 +388,20 @@ iframe{
 
 /* Bloc image backgrounds */
 
-.bg-landscape{
-	background-image:url("img/landscape.jpg");
-}
 .bg-hawaii{
 	background-image:url("img/hawaii.JPG");
 }
 .bg-caputo-poster{
 	background-image:url("img/caputo%20poster.psd");
 }
-.bg-landscape{
-	background-image:url("img/landscape.JPG");
-}
 .bg-bench{
 	background-image:url("img/bench.JPG");
+}
+.bg-landscape{
+	background-image:url('img/landscape.jpg');
+}
+.bg-landscape{
+	background-image:url('img/landscape.JPG');
 }
 
 
