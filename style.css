@@ -188,7 +188,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Bloc text custom styling */
 
 #bloc-1 h1{
-	font-family: Arvo;
+	font-weight: 900;
+	font-family: Droid Sans Mono;
 }
 
 /* = NavBar
@@ -322,6 +323,9 @@ button{
 	outline: none!important;
 }
 
+.btn-sq{
+	border-radius: 0px;
+}
 .btn-wire{
 	background:transparent!important;
 	border:2px solid transparent;
@@ -329,9 +333,6 @@ button{
 .btn-wire:hover{
 	background:transparent!important;
 	border:2px solid transparent;
-}
-.icon-spacer{
-	margin-right:5px;
 }
 .dropdown a .caret{
 	margin:0 0 0 5px}
@@ -399,13 +400,8 @@ iframe{
 }
 /* Text colour styles */
 
-.tc-outer-space{
-	color:#47454B!important;
-	!important}/* Button colour styles */
-
-.wire-btn-outer-space{
-	color:#47454B!important;
-	border-color:#47454B!important;
+.tc-white{
+	color:#ffffff!important;
 }
 
 /* Bloc image backgrounds */
@@ -414,16 +410,16 @@ iframe{
 	background-image:url("img/caputo%20poster.psd");
 }
 .bg-bench{
-	background-image:url('img/bench.JPG');
+	background-image:url("img/bench.JPG");
 }
 .bg-hawaii{
-	background-image:url('img/hawaii.JPG');
+	background-image:url("img/hawaii.JPG");
 }
 .bg-landscape{
-	background-image:url('img/landscape.JPG');
+	background-image:url("img/landscape.JPG");
 }
 .bg-landscape{
-	background-image:url('img/landscape.jpg');
+	background-image:url("img/landscape.jpg");
 }
 
 
