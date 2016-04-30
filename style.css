@@ -19,7 +19,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 a{
 	color:#47454B!important;
 }
-
  a:hover{
 	color:#39373c!important;
 	 text-decoration: none;
@@ -446,8 +445,8 @@ a[data-lightbox]:hover img{
 .bgc-white{
 	background-color:#ffffff;
 }
-.bgc-isabelline{
-	background-color:#EFEEF0;
+.bgc-snow{
+	background-color:#FAFAFA;
 }
 /* Text colour styles */
 
@@ -464,7 +463,7 @@ a[data-lightbox]:hover img{
 	background-image:url("img/beach.jpg");
 }
 .bg-beach{
-	background-image:url('img/beach.jpg');
+	background-image:url("img/beach.jpg");
 }
 
 
