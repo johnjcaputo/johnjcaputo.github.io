@@ -2,122 +2,182 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="music, ukulele, educational, instructional,  technology">
     <meta name="description" content="Musician, photographer, educational technologist, adventurer, husband, dad. Not necessarily in that order.">
     <link rel="shortcut icon" type="image/png" href="favicon.JPG" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-    <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
-    <link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <script src="./js/jquery-2.1.0.min.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/blocs.js"></script>
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script><link rel='stylesheet' href='./css/font-awesome.min.css'/>
     
     <title>John J. Caputo</title>
 </head>
 <body>
 <!-- Main container -->
 <div class="page-container">
-    <!-- Navigation Bloc --><div class="bloc bgc-white" id="nav-bloc">
-	<div class="container bloc-sm">
+    <!-- Hero Bloc --><div id="hero-bloc" class="bloc hero bgc-white bg-beach">
+	<div class="container bloc-sm hero-nav">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">john j. caputo</a>
+				<a class="navbar-brand" href="index.html"><img src="img/logo_black.png" alt="logo" width="100" />john j. caputo</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1">
-				<ul class="site-navigation nav navbar-nav">
+				<ul class="site-navigation nav navbar-nav pull-right">
 					<li>
-						<a href="index.html">home</a>
+						<a onclick="scrollToTarget('#music')" id="pl-undefined">music</a>
 					</li>
 					<li>
-						<a href="music.html">music</a>
+						<a onclick="scrollToTarget('#instruments')" id="pl-undefined">instruments</a>
 					</li>
 					<li>
-						<a href="instruments.html">instruments</a>
+						<a onclick="scrollToTarget('#me')" id="pl-undefined">me</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-</div><!-- Navigation Bloc END --><!-- bloc-1 --><div class="bloc bgc-white b-parallax bg-landscape d-bloc" id="bloc-1">
-	<div class="container bloc-xxl">
-		<div class="row">
+	<div class="v-center">
+		<div class="vc-content row">
 			<div class="col-sm-12">
-				<h1 class="mg-md text-center tc-white ">
+				<h1 class=" text-center tc-isabelline">
 					live.love.ukulele
 				</h1>
 			</div>
-		</div>
+		</div><a id="scroll-hero" class="btn-dwn" href="#"><span class="fa fa-chevron-down"></span></a>
 	</div>
-</div><!-- bloc-1 END --><!-- whats-new --><div class="bloc l-bloc bgc-white" id="whats-new">
+</div><!-- Hero Bloc END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - music --><div class="bloc bgc-white l-bloc" id="music">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-4">
-				<img src="img/hawaii.JPG" class="img-responsive" />
 				<h3 class="mg-md">
-					Endless summer
+					music
 				</h3>
 				<p>
-					I&rsquo;m still in denial, drinking Hawaiian beverages and playing light grooves. Enjoy summer with a few tunes that capture my summer for 2015.<br />
-				</p><a href="music.html" class="btn   btn-lg btn-wire btn-sq">Listen</a>
+					I describe it as acoustic and electric with a touch of world. My live show is a mix of guitar, ukulele, kalimba, and just about anything else I can find.<br /><br />I also use Ableton Live for an additional element here and there. I love using Ableton for productions I couldn&rsquo;t otherwise achieve (I just don&rsquo;t have room for half a dozen taiko drums). Here is some of my Ableton work - which I also do acoustic, stripped down with a looper pedal (or not - and I just pack the laptop). Enjoy. Mahalo.
+				</p>
 			</div>
-			<div class="col-sm-4">
-				<img src="img/trident.JPG" class="img-responsive" />
-				<h3 class="mg-md">
-					The Trident
-				</h3>
-				<p>
-					As my son says, he invented this. Three necks and five strings; the guitar he wanted for himself. He drew the design, and we built it over Labor Day weekend.
-				</p><a href="instruments.html" class="btn   btn-lg btn-wire btn-sq">View</a>
-			</div>
-			<div class="col-sm-4">
-				<img src="img/plate.JPG" class="img-responsive" />
-				<h3 class="mg-md">
-					Fresh from the bench
-				</h3>
-				<p>
-					Retired license plate, now my favorite resonator guitar with four strings. Some chill slide playing as the weather starts to turn.
-				</p><a href="instruments.html" class="btn   btn-lg btn-wire btn-sq">View</a>
+			<div class="col-sm-8">
+				<iframe width="100%" height="300" frameborder="0" style="border:0" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/171936249&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true">
+				</iframe>
 			</div>
 		</div>
 	</div>
-</div><!-- whats-new END --><!-- bloc-3 --><div class="bloc b-parallax bgc-white l-bloc" id="bloc-3">
-	<div class="container b-divider bloc-sm">
+</div><!-- Footer - music END --><!-- Footer - instruments --><div class="bloc b-divider bgc-isabelline l-bloc" id="instruments">
+	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
+				<h2 class="text-center mg-md">
+					instruments
+				</h2>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-3">
+				<a href="#" data-lightbox="img/kalimbas.JPG" data-caption="kalimbas"><img src="img/kalimbas.JPG" class="img-responsive" /></a>
 				<h3 class="mg-md">
-					They call me John.
+					kalimbas
 				</h3>
 				<p>
-					I'm a musician, adventurer, photographer, and educational technologist from the Philadelphia suburbs. If that doesn't cover enough ground, I also pretend that I know what I'm doing as a parent and husband. I also moonlight as an adjunct professor for an awesome local university.<br /><br />Relax, release the illusion of control, and enjoy the wave.<br /><br /><strong>Stuff I play:</strong> Electric and acoustic Guitar (6, 7 and 12 string), 8 string electric guitar, cigar box guitars, diddley bows, canjos, 6 string bass, piano, lap steel, resonator, tenor banjo, ukulele, kalimba, Zendrum, Hapi drum, djembe, Midi Fighters, Push, and anything that I can make a sound with (and not necessarily in that order).<br /><br /><strong>Stuff I make:</strong> Kalimbas, guitars with cigar boxes and license plates, Legos, and a colossal mess (which I clean up).<br />
+					<strong>Like a handpan, only obtainable.</strong> Love playing these. The closest thing to a hand pan I could get to before finding the Hapi Drum. Still love my kalimbas though. Solid or cigar box with a pickup, they&rsquo;re all good. Tip of the hat to my father-in-law for some of the engineering and jigs for these guys.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<a href="#" data-lightbox="img/trident.JPG" data-caption="the trident"><img src="img/trident.JPG" class="img-responsive" /></a>
+				<h3 class="mg-md">
+					the trident
+				</h3>
+				<p>
+					<strong>Designed by a 5 year old.</strong> My son wanted a guitar with three necks and five strings. He drew a picture; we built it over Labor Day weekend. It&rsquo;s mad. It&rsquo;s awesome; and totally my son in spirit.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<a href="#" data-lightbox="img/punch.JPG" data-caption="punch box"><img src="img/punch.JPG" class="img-responsive" /></a>
+				<h3 class="mg-md">
+					punch box
+				</h3>
+				<p>
+					<strong>My first guitar build.</strong> After the boys and I put together a CB Gitty guitar, I had to design and build one myself. A sweet little box for some late night picking. Currently residing in a new home.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<a href="#" data-lightbox="img/plate.JPG" data-caption="the tigers"><img src="img/plate.JPG" class="img-responsive" /></a>
+				<h3 class="mg-md">
+					the tigers
+				</h3>
+				<p>
+					<strong>Mileage built in.</strong> I couldn&rsquo;t turn in my old plate. The milage and the years are all in there. Scraps in the garage plus a few tuners makes a dynamite guitar. The tail piece is a nod to the family. Tuned to C for some barritone goodness.
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-3">
+				<a href="#" data-lightbox="img/canjo.JPG" data-caption="canjo"><img src="img/canjo.JPG" class="img-responsive" /></a>
+				<h3 class="mg-md">
+					canjo
+				</h3>
+				<p>
+					<strong>Yep, it&rsquo;s a soup can.</strong> And it was delicous. Clam chowder, if you care. If not, it&rsquo;s okay because it sounds awesome. Another plus is the boys love grabbing it and singing their favorite song while striking some crazy rock star poses. Playing it with a stick reminds me of Tony Levin&rsquo;s funk fingers.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<a href="#" data-lightbox="img/diddleybow.JPG" data-caption="diddley bow"><img src="img/diddleybow.JPG" class="img-responsive" /></a>
+				<h3 class="mg-md">
+					diddley bow
+				</h3>
+				<p>
+					<strong>An electric stick.</strong> The next build after the canjo. I wanted a live stick to cover G and A and this fits the bill. Surprisingly soulful.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<span class="empty-column"></span>
+			</div>
+			<div class="col-sm-3">
+				<span class="empty-column"></span>
+			</div>
+		</div>
+	</div>
+</div><!-- Footer - instruments END --><!-- Footer - me --><div class="bloc l-bloc bgc-white" id="me">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="img/meandv.jpg" class="img-responsive img-rd-md" />
+			</div>
+			<div class="col-sm-8">
+				<h3 class="mg-md">
+					me
+				</h3>
+				<p class="text-left">
+					Musician, adventurer, photographer, and educational technologist (and occasional adjunct professor) from the Philadelphia suburbs. If that doesn't cover enough ground, I also pretend that I know what I'm doing as a parent and husband.<br /><br /><strong>stuff I play:</strong> Electric and acoustic guitar (6, 7 and 12 string), 8 string electric guitar, cigar box guitars, diddley bows, canjos, 6 string bass, piano, lap steel, resonator, tenor banjo, ukulele, kalimba, Zendrum, Hapi drum, djembe, Midi Fighters, Push, and anything that I can make a sound with (and not necessarily in that order).<br /><br /><strong>stuff I make:</strong> Kalimbas, guitars with cigar boxes and license plates, Legos, whatever odds &amp; ends I need, and a colossal mess (which I clean up).
 				</p>
 			</div>
 		</div>
 	</div>
-</div><!-- bloc-3 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-15 --><div class="bloc l-bloc bgc-white" id="bloc-15">
+</div><!-- Footer - me END --><!-- Footer - bloc-5 --><div class="bloc bgc-isabelline l-bloc b-divider" id="bloc-5">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-md-offset-3">
-				<div class="col-sm-3 text-center">
+				<div class="col-xs-3 text-center">
 					<a class="social" href="https://twitter.com/johnjcaputo" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
 				</div>
-				<div class="col-sm-3 text-center">
+				<div class="col-xs-3 text-center">
 					<a class="social" href="https://www.facebook.com/johnjcaputo" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
 				</div>
-				<div class="col-sm-3 text-center">
-					<a class="social" href="https://www.youtube.com/user/johnjcaputo/videos" target="_blank"><span class="fa fa-youtube-square icon-md"></span></a>
+				<div class="col-xs-3 text-center">
+					<a class="social" href="https://www.youtube.com/user/johnjcaputo/videos" target="_blank"><span class="fa fa-youtube icon-md"></span></a>
 				</div>
-				<div class="col-sm-3 text-center">
+				<div class="col-xs-3 text-center">
 					<a class="social" href="https://www.linkedin.com/in/johnjcaputo" target="_blank"><span class="fa fa-linkedin-square icon-md"></span></a>
 				</div>
 			</div>
 		</div>
 	</div>
-</div><!-- Footer - bloc-15 END -->
+</div><!-- Footer - bloc-5 END -->
 </div>
 <!-- Main container END -->
 
